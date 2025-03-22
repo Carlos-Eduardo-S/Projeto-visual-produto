@@ -9,7 +9,7 @@
         width: 48rem;
         height: 16.313rem;
         background-color: var(--cor-terciaria);
-        margin: 50% auto;
+        margin: 40% auto;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -25,28 +25,35 @@
         display: flex;
     }
 
-    .conteudo__corpo img {
-        background-image: url(/assets/image-product-desktop.jpg);
-        background-size: auto;
-        /* width: 18.75rem;
+    .corpo__img-desktop img {
+        width: 18.75rem;
         height: 28.5rem;
-        border-radius: 8px 0 0 8px; */
+        border-radius: 8px 0 0 8px;
+    }
+
+    .corpo__img-mobile {
+        display: none;
     }
 
     /* Estilização do Texto */
 
     .conteudo__descricao {
-        width: 17.875rem;
-        height: 13.375rem;
+        width: 14.75rem;
+        height: 15.375rem;
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
-        padding: 2rem 2rem 1.5rem 2rem;
+        padding: 2rem;
+    }
+
+    .conteudo__informacoes {
+        display: flex;
+        flex-direction: column;
     }
 
     .descricao__categoria {
         font-family: var(--montserrat);
-        font-size: 0.75rem;
+        font-size: 0.875rem;
         font-weight: 500;
         color: var(--cor-secundaria);
         text-transform: uppercase;
@@ -60,6 +67,7 @@
     }
 
     .descricao__texto {
+        width: 15rem;
         font-family: var(--montserrat);
         font-size: 0.875rem;
         font-weight: 500;
@@ -97,7 +105,7 @@
     /* Estilização do Botão */
     
     .conteudo__botao {
-        width: 17.875rem;
+        width: 14.75rem;
         height: 3.125rem;
         background-color: var(--cor-quintaria);
         font-family: var(--montserrat);
@@ -107,8 +115,7 @@
         align-items: center;
         justify-content: center;
         gap: 0.588rem;
-        margin-left: 2rem;
-        margin-bottom: 2rem;
+        margin: 1rem 0 2rem 2rem;
         border-radius: 0.5rem;
     }
 
