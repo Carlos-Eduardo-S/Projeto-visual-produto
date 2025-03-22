@@ -1,2 +1,123 @@
 /* Importações */
 @import url(/Design/variaveis.css);
+
+/* Estilização Mobile */
+@media screen and (max-width: 23.5rem) {
+    /* Corpo da Página */
+
+    body {
+        width: 23.438rem;
+        height: 39.175rem;
+        background-color: var(--cor-terciaria);
+        margin: 50% auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Corpo do Conteúdo */
+
+    .conteudo__corpo {
+        width: 21.875rem;
+        height: 40.875rem;
+        background-color: var(--cor-quaternaria);
+        border-radius: 0.5rem;
+    }
+
+    .conteudo__corpo img {
+        width: 21.875rem;
+        border-radius: 8px 8px 0 0;
+    }
+
+    /* Estilização do Texto */
+
+    .conteudo__descricao {
+        width: 17.875rem;
+        height: 13.375rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 2rem 2rem 1.5rem 2rem;
+    }
+
+    .descricao__categoria {
+        font-family: var(--montserrat);
+        font-size: 0.75rem;
+        font-weight: 500;
+        color: var(--cor-secundaria);
+        text-transform: uppercase;
+    }
+
+    .descricao__titulo {
+        font-family: var(--fraunces);
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--cor-primaria);
+    }
+
+    .descricao__texto {
+        font-family: var(--montserrat);
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: var(--cor-secundaria);
+        line-height: 1.25rem;
+    }
+
+    /* Estilização do Preço */
+
+    .conteudo__preco {
+        width: 11.938rem;
+        height: 2rem;
+        padding-left: 2rem;
+        padding-bottom: 1.5rem;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .preco__atual {
+        font-family: var(--fraunces);
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--cor-quintaria);
+    }
+
+    .preco__antigo {
+        font-family: var(--montserrat);
+        font-size: 0.813rem;
+        font-weight: 500;
+        color: var(--cor-secundaria);
+        text-decoration: line-through;
+    }
+
+    /* Estilização do Botão */
+    
+    .conteudo__botao {
+        width: 17.875rem;
+        height: 3.125rem;
+        background-color: var(--cor-quintaria);
+        font-family: var(--montserrat);
+        font-size: 0.875rem;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.588rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        border-radius: 0.5rem;
+    }
+
+    .conteudo__botao:hover {
+        background-color: var(--cor-sextaria);
+    }
+
+    .conteudo__botao img {
+        width: 18px
+    }
+
+    .botao__compra {
+        text-decoration: none;
+        color: var(--cor-quaternaria);
+    }
+}
