@@ -1,0 +1,28 @@
+/* Importações */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,100..900,0..100,0..1;1,9..144,100..900,0..100,0..1&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Variáveis */
+:root {
+    /* Black */
+    --cor-primaria: #1C232B;
+
+    /* Grey */
+    --cor-secundaria: #6C7289;
+    
+    /* Cream */
+    --cor-terciaria: #F2EAE2;
+
+    /* White */
+    --cor-quaternaria: #FFFFFF;
+
+    /* Green */
+        /* Green 500*/
+    --cor-quintaria: #3D8168;
+
+        /* Green 700 */
+    --cor-sextaria: #1A4032;
+
+    /* Fontes */
+    --fraunces: "Fraunces", serif;
+    --montserrat: "Montserrat", sans-serif;
+}
