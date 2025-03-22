@@ -24,7 +24,11 @@
         border-radius: 0.5rem;
     }
 
-    .conteudo__corpo img {
+    .corpo__img-desktop {
+        display: none;
+    }
+
+    .corpo__img-mobile img {
         width: 21.875rem;
         border-radius: 8px 8px 0 0;
     }
